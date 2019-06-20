@@ -1,6 +1,14 @@
 #Java实现的各种排序
 ###一、冒泡排序
 ```
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+}
+```
+
+```
 public static void bubbleSort2(int[] arr){
 	if(arr == null || arr.length < 2) return;
 	for(int end = arr.length - 1; end > 0; end--){
