@@ -1,5 +1,5 @@
-#Java实现的各种排序
-##一、冒泡排序
+# Java实现的各种排序
+## 一、冒泡排序
 ```
 public class Hello {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public static void swap(int[] arr, int i, int j) {
 }
 ```
 
-##二、选择排序
+## 二、选择排序
 ```
 /*
  * 数组长为n
@@ -59,7 +59,7 @@ public static void swap(int[] arr, int i, int j){
 }
 ```
 
-##三、插入排序
+## 三、插入排序
 ```
 public static void insertSort(int[] arr){
     if(arr == null || arr.length < 2) return ;
@@ -79,7 +79,7 @@ public static void swap(int[] arr, int i, int j){
 }
 ```
 
-##四、快速排序
+## 四、快速排序
 ```
 public static void quickSort(int[] arr, int start, int end) {
     if (start < end) {
@@ -113,7 +113,7 @@ public static void quickSort(int[] arr, int start, int end) {
 }
 ```
 
-##五、归并排序
+## 五、归并排序
 ```
 /**
  * 1.先合并两个数组，处理数组使两个数组有序
@@ -166,7 +166,7 @@ public static void mergeSort(int[] arr, int low, int high) {
 }
 ```
 
-##六、堆排序
+## 六、堆排序
 ```
 //堆排序
 public static void heapSort(int[] arr){
@@ -232,7 +232,7 @@ public static void swap(int[] arr, int i, int j){
 }
 ```
 
-##桶排序（0~200 values）
+## 桶排序（0~200 values）
 ```
 public static void bucketSort(int[] arr){
     if(arr == null || arr.length < 2) return;
