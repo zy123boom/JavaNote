@@ -1,6 +1,6 @@
 # Java实现的各种排序
 ## 一、冒泡排序
-```
+```java
 public class Hello {
     public static void main(String[] args) {
         System.out.println("hello");
@@ -8,7 +8,7 @@ public class Hello {
 }
 ```
 
-```
+```java
 public static void bubbleSort2(int[] arr){
     if(arr == null || arr.length < 2) return;
     for(int end = arr.length - 1; end > 0; end--){
@@ -28,7 +28,7 @@ public static void swap(int[] arr, int i, int j) {
 ```
 
 ## 二、选择排序
-```
+```java
 /*
  * 数组长为n
  * 排0~n-1，最小的放0
@@ -60,7 +60,7 @@ public static void swap(int[] arr, int i, int j){
 ```
 
 ## 三、插入排序
-```
+```java
 public static void insertSort(int[] arr){
     if(arr == null || arr.length < 2) return ;
     //从下标为1的开始往后走
@@ -80,7 +80,7 @@ public static void swap(int[] arr, int i, int j){
 ```
 
 ## 四、快速排序
-```
+```java
 public static void quickSort(int[] arr, int start, int end) {
     if (start < end) {
         // 找到标准数，一般为第0个
@@ -114,7 +114,7 @@ public static void quickSort(int[] arr, int start, int end) {
 ```
 
 ## 五、归并排序
-```
+```java
 /**
  * 1.先合并两个数组，处理数组使两个数组有序
  * @param arr 数组
@@ -167,7 +167,7 @@ public static void mergeSort(int[] arr, int low, int high) {
 ```
 
 ## 六、堆排序
-```
+```java
 //堆排序
 public static void heapSort(int[] arr){
     if(arr == null || arr.length < 2) return;
@@ -233,7 +233,7 @@ public static void swap(int[] arr, int i, int j){
 ```
 
 ## 桶排序（0~200 values）
-```
+```java
 public static void bucketSort(int[] arr){
     if(arr == null || arr.length < 2) return;
     int max = Integer.MIN_VALUE;
