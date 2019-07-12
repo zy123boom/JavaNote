@@ -21,5 +21,5 @@ private void swap2(ListNode pre){
     pre.next = dummy.next;
     dummy.next = dummy.next.next;
     pre.next.next = dummy;
-}
+} 
 ```
