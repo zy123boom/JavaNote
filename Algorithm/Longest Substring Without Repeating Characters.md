@@ -28,5 +28,5 @@ public int lengthOfLongestSubString(String s){
     }
     max = Math.max(max, right - left);
     return max;
-}
+} 
 ```
