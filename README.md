@@ -9,3 +9,4 @@
 * [Java实现的排序](Algorithm/Sort.md)
 * [Leetcode54.螺旋矩阵](Algorithm/SpiralOrder.md)
 * [Leetcode 两两交换链表中的节点](Algorithm/SwapPairs.md)
+* [Leetcode1254.统计封闭岛屿的数目](Algorithm/Number of Closed Islands.md)
