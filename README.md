@@ -2,6 +2,7 @@
 ## Java
 * [Java基础知识](Java/Java基础知识.md)
 * [Java高级知识](Java/Java高级知识.md)
+* [设计模式](Java/designpattern.md)
 
 ## Algorithm
 * [Leetcode3.无重复字符的最长子串](Algorithm/Longest Substring Without Repeating Characters.md)
